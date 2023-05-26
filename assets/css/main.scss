@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+// Remover as setas do number
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    background-color: $white;
+    margin: 0 !important;
+
+    overflow: hidden;
+
+    letter-spacing: 0.1px;
+}
+
+@media (max-width: 1023.98px) {
+    body {
+        &.sm-noScroll {
+            overflow: hidden;
+            height: 100%;
+        }
+    }
+}
+
+body.noScroll {
+    height: 100%;
+    overflow: hidden;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+label,
+input,
+textarea {
+    width: 100%;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.subtitle {
+    @include font($px18, $semibold, $black);
+    margin-bottom: $px16;
+}
+
+.legend {
+    @include font($px16, $semibold, $black);
+    margin-bottom: $px16;
+}

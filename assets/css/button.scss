@@ -1,0 +1,25 @@
+button {
+    display: block;
+
+    &.button {
+        &.base {
+            padding: $px8 $px32;
+
+            border-radius: $px8;
+
+            @include font($px24, $semibold, $white);
+
+            background-color: $base;
+
+            transition: $transition;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+
+            &:active {
+                transform: scale(0.95);
+            }
+        }
+    }
+}
