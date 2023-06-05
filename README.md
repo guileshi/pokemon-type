@@ -1,42 +1,7 @@
-# Nuxt 3 Minimal Starter
+# Using Nuxt 3
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+An initial project that you can use to memorize Pokemon Advantages and Disadvantagens
 
-## Setup
+Is in the first deploy, i have so much thing to do to improve this project
 
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+[Test it clicking here](https://pokemon-type.vercel.app)
